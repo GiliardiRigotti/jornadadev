@@ -1,0 +1,9 @@
+.videoFooter{
+    position: relative;
+    bottom: 200px;
+    color: white;
+}
+
+.videoFooter__text h3{
+    padding-bottom: 20px;
+}
