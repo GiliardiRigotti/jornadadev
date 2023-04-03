@@ -7,9 +7,16 @@ export default function VideoFooter() {
       <div className="videoFooter__text">
         <h3>@Giliardi Ebac</h3>
         <p>Descrição do Video</p>
-        <p>Icone</p>
-        <p>Titulo da musica</p>
+        <div className="videoFooter_music">
+          <p>Icone</p>
+          <p>Titulo da musica</p>
+        </div>
       </div>
+      <img
+        className="videoFooter__record"
+        alt="Imagem de um vinil girando"
+        src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/vinil.png"
+      />
     </div>
   );
 }
